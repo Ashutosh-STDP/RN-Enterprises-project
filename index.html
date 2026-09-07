@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+    <title>RN Enterprises</title>
+</head>
+
+<body>
+    <nav>
+    <div class="logo">
+        <img src="assets/rn_entps2.png" alt="RN Enterprises">
+        <span class="text">Enterprises</span>
+    </div>
+
+    <!-- Mobile Menu Icon -->
+    <button class="menu-toggle" id="menuToggle">
+        <i class="ri-menu-line"></i>
+    </button>
+
+    <div class="main" id="mainMenu">
+        <div class="menu">
+            <a href="index.html" class="link active">Home</a>
+            <a href="#service" class="link">Service</a>
+            <a href="#about" class="link">About</a>
+            <a href="#" class="link">Projects</a>
+
+            <div class="btn">
+                <a href="#request">
+                    Request A Survey
+                    <span class="arrow">&#8594;</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+    <section class="container">
+        <div class="hero">
+            <div class="heading">
+                <h1 class="main_heading">Reliable Plumbing & Firefighting Solutions</h1> <span
+                    class="subheading">Complete plumbing, fire protection and firefighting solutions, reliability and
+                    long-term performance.</span>
+            </div>
+            <div class="hero_img"> <img src="assets/hero_bg.png" alt=""> </div>
+        </div>
+    </section>
+    <section class="priority">
+        <div class="container2">
+            <div class="row">
+                <div class="priority_order">
+                    <h1> 20+ </h1>
+                    <p>Years Experience</p>
+                </div>
+                <div class="priority_order">
+                    <h1> 700+ </h1>
+                    <p>Complete Projects</p>
+                </div>
+                <div class="priority_order">
+                    <h1> 2000+ </h1>
+                    <p>Experienced workers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero_card" id="service">
+        <div class="features">
+            <h1>Our Services</h1>
+        </div>
+        <div class="card">
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/plumbing.jpg" alt=""> </div>
+                <h1>Plumbing Services</h1>
+            </div>
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/fire_fighting.jpg" alt=""> </div>
+                <h1>Firefighting Systems</h1>
+            </div>
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/fire_protection.jpg" alt=""> </div>
+                <h1>Fire Protection</h1>
+            </div>
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/hydrent.webp" alt=""> </div>
+                <h1>Hydrant System</h1>
+            </div>
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/sprinkler.jpg" alt=""> </div>
+                <h1>Sprinkler System</h1>
+            </div>
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/fire_alarm.jpg" alt=""> </div>
+                <h1>Fire Alarm System</h1>
+            </div>
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/piping.jpg" alt=""> </div>
+                <h1>Piping & Fabrication</h1>
+            </div>
+            <div class="card_element">
+                <div class="card_img"> <img src="assets/amc.jpg" alt=""> </div>
+                <h1>AMC/Management</h1>
+            </div>
+        </div>
+    </section>
+    <section class="block" id="about">
+        <div class="container_about">
+            <div class="section-head reveal in">
+                <div class="eyebrow">About Us</div>
+                <h1>Your Trusted Partner in Plumbing & Fire Safety Solutions</h1>
+                <p>From plumbing systems to advanced fire protection and firefighting solutions, RN Enterprises delivers
+                    dependable services designed to meet the highest standards of safety, quality, and performance.</p>
+            </div>
+            <div class="about-grid">
+                <div class="reveal in"> <img src="assets/hero_img2.jpg" alt="Our team"> </div>
+                <div class="reveal in">
+                    <h3 style="font-size: 21px;margin-bottom: 12px;">Our Mission</h3>
+                    <p style="color:#5b6b7a;margin-bottom:16px">Our mission is to deliver dependable plumbing and fire
+                        safety solutions with a strong commitment to quality, safety, and customer satisfaction. We
+                        strive to exceed expectations through professional service and long-term reliability. </p>
+                    <h3 style="font-size:21px;margin:20px 0 12px">Our Vision</h3>
+                    <p style="color:#5b6b7a">To be a trusted name in plumbing and fire safety solutions, recognized for
+                        quality, innovation, reliability, and excellence.</p>
+                    <div class="stat-row">
+                        <div class="stat"><b>25+</b><span>Years</span></div>
+                        <div class="stat"><b>120+</b><span>Project</span></div>
+                        <div class="stat"><b>500+</b><span>Workers</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="request" id="request">
+        <div class="survey"> Request for Survey </div>
+        <div class="req-container">
+            <div class="req-block"> <!-- Name + Phone -->
+                <div class="req-row"> <input type="text" placeholder="Full Name" required> <input type="tel"
+                        placeholder="Phone Number" required> </div> <!-- Custom Service Dropdown -->
+                <div class="custom-select">
+                    <div class="select-box"> <span class="select-text">Select Service</span> <span
+                            class="select-arrow">⌄</span> </div>
+                    <div class="select-options">
+                        <div data-value="plumbing"> Plumbing Service </div>
+                        <div data-value="firefighting"> Firefighting System </div>
+                        <div data-value="fire-protection"> Fire Protection </div>
+                        <div data-value="hydrant"> Hydrant System </div>
+                        <div data-value="sprinkler"> Sprinkler System </div>
+                        <div data-value="fire-alarm"> Fire Alarm System </div>
+                        <div data-value="piping"> Piping & Fabrication </div>
+                        <div data-value="amc"> Maintenance & AMC </div>
+                    </div>
+                </div> <!-- Message --> <textarea class="message" placeholder="Your Message" required></textarea>
+                <!-- Submit Button --> <button type="submit" class="submit"> Send Request <span
+                        class="arrow">&#8594;</span> </button>
+            </div>
+        </div>
+    </section>
+    <div class="site_footer">
+        <footer>
+            <div class="hero_footer">
+                <div class="hero_foot">
+                    <div class="brand">
+                        <div class="logo"><img src="assets/rn_entps2.png" alt=""> <span class="text">Enterprises</span>
+                            <p>B-3, C, 19, Shah Chandiwal Co., OP. Hsg. Soc. Ltd., M.M.R.D.A., Subhas Nagar, Bhandup
+                                (W), Mumbai, Maharashtra 400078, PAN NO.: BFYPP5293N GSTIN: 27BFYPP5293N1Z5 </p>
+                        </div>
+                    </div>
+                    <div class="foot">
+                        <h5>Expolre</h5> <a href="#">Plumbing Services</a> <a href="#">Firefighting Systems</a> <a
+                            href="#">Fire Protection</a> <a href="#">Hydrant System</a> <a href="#">Sprinkler System</a>
+                        <a href="#">Fire Alarm System</a> <a href="#">Piping & Fabrication</a> <a href="#">Maintenance &
+                            AMC</a>
+                    </div>
+                    <div class="foot">
+                        <h5>Customer</h5> <a href="#">Request Survey</a> <a href="#">Products</a> <a
+                            href="#">Projects</a>
+                    </div>
+                    <div class="foot">
+                        <h5>Reach Us</h5>
+                        <div class="foot_cont"> <span>OWNER: Mr. YOGESH PAL</span><br> <span>PHONE NO.:
+                                7977679905</span><br> <span>EMAIL ID: bajajyogesh111@gmail.com</span> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">© 2026 RN Enterprises. All rights reserved. Built with care.</div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
