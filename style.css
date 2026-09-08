@@ -97,7 +97,7 @@ nav {
   color: #ffffff;
   border-radius: 6px;
   background-color: #16213e;
-  transition: all 1s ease-out;
+  transition: all 0.1s ease-out;
 }
 .btn a:nth-child(1):hover {
   color: #ffffff;
