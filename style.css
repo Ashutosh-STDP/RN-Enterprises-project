@@ -102,7 +102,12 @@ nav {
 .btn a:nth-child(1):hover {
   color: #ffffff;
   background: rgb(223, 4, 4);
-} /* =========================================   MOBILE MENU BUTTON========================================= */
+}
+.btn .arrow {
+  margin-left: 8px;
+  font-size: 18px;
+}
+/* =========================================   MOBILE MENU BUTTON========================================= */
 .menu-toggle {
   display: none;
   border: none;
@@ -1062,6 +1067,9 @@ footer {
         background: rgba(18, 18, 18, 0.88);
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.45);
     }
+    .menu{
+      background-color: rgba(18, 18, 18, 0.88);
+    }
 
     .menu a {
         color: #e8e8e8;
@@ -1081,9 +1089,7 @@ footer {
         color: #ffffff;
     }
 
-    nav .main {
-        background: rgba(30, 30, 30, 0.98);
-    }
+    
 
     .container {
         background: linear-gradient(to right, #111827, #121212);
