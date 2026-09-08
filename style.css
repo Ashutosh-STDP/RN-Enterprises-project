@@ -219,6 +219,7 @@ nav {
   margin-bottom: 30px;
 }
 .card {
+  cursor:pointer;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
